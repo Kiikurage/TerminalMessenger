@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF23E41D195E9EE400E1B915 /* FBMessengerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF23E41C195E9EE400E1B915 /* FBMessengerClient.swift */; };
+		EF23E41F195E9F0900E1B915 /* main2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF23E41E195E9F0900E1B915 /* main2.swift */; };
+		EF378C47195312DB00D15ED8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF378C46195312DB00D15ED8 /* main.swift */; };
+		EF378C4E195312E800D15ED8 /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF378C4D195312E800D15ED8 /* util.swift */; };
+		EF4993EB195A941400882383 /* FBThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4993EA195A941400882383 /* FBThread.swift */; };
+		EF4993ED195A941D00882383 /* FBMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4993EC195A941D00882383 /* FBMessage.swift */; };
+		EF4993EF195A944D00882383 /* FBGraphNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4993EE195A944D00882383 /* FBGraphNode.swift */; };
+		EF4993F1195A975700882383 /* FBUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4993F0195A975700882383 /* FBUser.swift */; };
+		EF659B39195EC8B100D6FE5F /* MyXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF659B38195EC8B100D6FE5F /* MyXMLParser.swift */; };
+		EF659B3B195EC99D00D6FE5F /* MyXMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF659B3A195EC99D00D6FE5F /* MyXMLNode.swift */; };
+		EFC7B58E196105E500096833 /* RegExp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC7B58D196105E500096833 /* RegExp.swift */; };
+		EFC895C3195BE1930042FAC8 /* TCPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC895C2195BE1930042FAC8 /* TCPConnection.swift */; };
+		EFF6A00B19532DBF008105B7 /* constance.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF6A00A19532DBF008105B7 /* constance.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EF378C41195312DB00D15ED8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EF23E41C195E9EE400E1B915 /* FBMessengerClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBMessengerClient.swift; sourceTree = "<group>"; };
+		EF23E41E195E9F0900E1B915 /* main2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main2.swift; sourceTree = "<group>"; };
+		EF378C43195312DB00D15ED8 /* TerminalMessenger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TerminalMessenger; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF378C46195312DB00D15ED8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EF378C4D195312E800D15ED8 /* util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
+		EF4993EA195A941400882383 /* FBThread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBThread.swift; sourceTree = "<group>"; };
+		EF4993EC195A941D00882383 /* FBMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBMessage.swift; sourceTree = "<group>"; };
+		EF4993EE195A944D00882383 /* FBGraphNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBGraphNode.swift; sourceTree = "<group>"; };
+		EF4993F0195A975700882383 /* FBUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBUser.swift; sourceTree = "<group>"; };
+		EF659B38195EC8B100D6FE5F /* MyXMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyXMLParser.swift; sourceTree = "<group>"; };
+		EF659B3A195EC99D00D6FE5F /* MyXMLNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyXMLNode.swift; sourceTree = "<group>"; };
+		EFC7B58D196105E500096833 /* RegExp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegExp.swift; sourceTree = "<group>"; };
+		EFC895C2195BE1930042FAC8 /* TCPConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPConnection.swift; sourceTree = "<group>"; };
+		EFF6A00A19532DBF008105B7 /* constance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constance.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF378C40195312DB00D15ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF378C3A195312DB00D15ED8 = {
+			isa = PBXGroup;
+			children = (
+				EF378C45195312DB00D15ED8 /* TerminalMessanger */,
+				EF378C44195312DB00D15ED8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF378C44195312DB00D15ED8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF378C43195312DB00D15ED8 /* TerminalMessenger */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF378C45195312DB00D15ED8 /* TerminalMessanger */ = {
+			isa = PBXGroup;
+			children = (
+				EF378C4D195312E800D15ED8 /* util.swift */,
+				EF378C46195312DB00D15ED8 /* main.swift */,
+				EF23E41E195E9F0900E1B915 /* main2.swift */,
+				EF23E41C195E9EE400E1B915 /* FBMessengerClient.swift */,
+				EF4993EA195A941400882383 /* FBThread.swift */,
+				EF4993EE195A944D00882383 /* FBGraphNode.swift */,
+				EF4993EC195A941D00882383 /* FBMessage.swift */,
+				EF4993F0195A975700882383 /* FBUser.swift */,
+				EFF6A00A19532DBF008105B7 /* constance.swift */,
+				EFC895C2195BE1930042FAC8 /* TCPConnection.swift */,
+				EF659B38195EC8B100D6FE5F /* MyXMLParser.swift */,
+				EF659B3A195EC99D00D6FE5F /* MyXMLNode.swift */,
+				EFC7B58D196105E500096833 /* RegExp.swift */,
+			);
+			path = TerminalMessanger;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF378C42195312DB00D15ED8 /* TerminalMessenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF378C4A195312DB00D15ED8 /* Build configuration list for PBXNativeTarget "TerminalMessenger" */;
+			buildPhases = (
+				EF378C3F195312DB00D15ED8 /* Sources */,
+				EF378C40195312DB00D15ED8 /* Frameworks */,
+				EF378C41195312DB00D15ED8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TerminalMessenger;
+			productName = TerminalMessanger;
+			productReference = EF378C43195312DB00D15ED8 /* TerminalMessenger */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF378C3B195312DB00D15ED8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = KikuraYuichirou;
+				TargetAttributes = {
+					EF378C42195312DB00D15ED8 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = EF378C3E195312DB00D15ED8 /* Build configuration list for PBXProject "TerminalMessenger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF378C3A195312DB00D15ED8;
+			productRefGroup = EF378C44195312DB00D15ED8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF378C42195312DB00D15ED8 /* TerminalMessenger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF378C3F195312DB00D15ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF378C47195312DB00D15ED8 /* main.swift in Sources */,
+				EF4993EB195A941400882383 /* FBThread.swift in Sources */,
+				EF4993EF195A944D00882383 /* FBGraphNode.swift in Sources */,
+				EF659B3B195EC99D00D6FE5F /* MyXMLNode.swift in Sources */,
+				EF378C4E195312E800D15ED8 /* util.swift in Sources */,
+				EF4993ED195A941D00882383 /* FBMessage.swift in Sources */,
+				EFF6A00B19532DBF008105B7 /* constance.swift in Sources */,
+				EF23E41D195E9EE400E1B915 /* FBMessengerClient.swift in Sources */,
+				EF659B39195EC8B100D6FE5F /* MyXMLParser.swift in Sources */,
+				EF4993F1195A975700882383 /* FBUser.swift in Sources */,
+				EFC7B58E196105E500096833 /* RegExp.swift in Sources */,
+				EFC895C3195BE1930042FAC8 /* TCPConnection.swift in Sources */,
+				EF23E41F195E9F0900E1B915 /* main2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EF378C48195312DB00D15ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF378C49195312DB00D15ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EF378C4B195312DB00D15ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = TerminalMessenger;
+			};
+			name = Debug;
+		};
+		EF378C4C195312DB00D15ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = TerminalMessenger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF378C3E195312DB00D15ED8 /* Build configuration list for PBXProject "TerminalMessenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF378C48195312DB00D15ED8 /* Debug */,
+				EF378C49195312DB00D15ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF378C4A195312DB00D15ED8 /* Build configuration list for PBXNativeTarget "TerminalMessenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF378C4B195312DB00D15ED8 /* Debug */,
+				EF378C4C195312DB00D15ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF378C3B195312DB00D15ED8 /* Project object */;
+}
